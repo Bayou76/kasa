@@ -1,0 +1,45 @@
+@import '../../sass/main.scss';
+
+.collapse {
+	background-color: $color-primary;
+	width: 70%;
+	margin: auto;
+	margin-bottom: 30px;
+    border-radius: 5px;
+
+	&_header {
+		background-color: $color-secondary;
+		border-radius: 5px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		gap: 30px;
+		padding: 10px 20px 10px 15px;
+		font-size: 24px;
+		font-style: normal;
+		font-weight: 700;
+		&_title {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			color: $color-primary;
+		}
+		&_arrow {
+			color: $color-primary;
+			width: 32px;
+			height: 32px;
+		}
+	}
+	&_content{
+        padding: 20px;
+        font-size: 18px;
+        background-color: $color-tertiary;
+        transition: visibility 0.1s, opacity 0.2s ease-in, height 0.3s ease-in;
+    }
+    &_hidden{
+        visibility: hidden;
+        opacity: 0;
+        height: 0;
+        color: black;
+    }
+}

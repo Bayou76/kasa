@@ -6,3 +6,15 @@ a{
 li{
     list-style: none;
 }
+
+body{
+    padding-top: 45px;
+}
+
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    font-style: normal;
+}

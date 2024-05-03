@@ -1,11 +1,14 @@
 import Header from "../../components/Header/Header"
 import Footer from "../../components/Footer/Footer"
+import Banner from "../../components/Banner/Banner"
+import AboutSection from "../../components/AboutSection/AboutSection"
 
 function About(){
     return (
         <div>
             <Header/>
-            <h1>A propos</h1>
+            <Banner/>
+            <AboutSection/>
             <Footer/>
         </div>
     )
