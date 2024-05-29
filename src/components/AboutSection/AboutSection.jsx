@@ -1,4 +1,5 @@
 import Collapse from "../Collapse/Collapse";
+import './aboutSection.scss'
 
 const AboutSection = () => {
     const aboutDatas = [

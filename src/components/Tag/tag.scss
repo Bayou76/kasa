@@ -1,0 +1,19 @@
+@import '../../sass/main.scss';
+
+.tag {
+	padding: 5px 40px;
+	border-radius: 10px;
+	border: none;
+	color: $color-primary;
+	background-color: $color-secondary;
+    margin: 20px 10px 0 0;
+	font-size: 14px;
+	@media screen and (max-width: 1230px){
+		font-size: 11px;
+		padding: 4px 20px;
+	}
+	@media screen and (max-width: 600px){
+		font-size: 10px;
+		padding: 3px 15px;
+	}
+}
