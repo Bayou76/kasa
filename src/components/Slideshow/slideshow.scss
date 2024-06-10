@@ -1,47 +1,51 @@
 @import '../../sass/main.scss';
 
-.slide{
-    position: relative;
-    width: 95%;
-    border-radius: 25px;
-    overflow: hidden;
-    margin: 50px auto;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 500px;
-    @media screen and (max-width: 1230px){
-        height: 300px;
-        border-radius: 15px;
-        margin: 25px auto;
-    }
-    @media screen and (max-width: 600px){
-        height: 255px;
-        border-radius: 10px;
-        margin: 15px auto;
-    }
-    &_arrow{
-        position: absolute;
-        top: 50%;
-        height: 10%;
-        cursor: pointer;
-        width: 48px;
-        height: 80px; 
-        color: $color-primary;
-        transform: translateY(-50%);
-        &_right{
-            right: 35px;
-        }
-        &_left{
-            left: 35px;
-        }
-    }
-    .slideNB{
-        position: absolute;
-        bottom: 30px;
-        left: 50%;
-        color: $color-primary;
-        font-weight: 500;
-        font-size: 18px;
-    }
+.slide {
+	position: relative;
+	width: 95%;
+	border-radius: 25px;
+	overflow: hidden;
+	margin: 50px auto;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 500px;
+	@media screen and (max-width: 1230px) {
+		height: 300px;
+		border-radius: 15px;
+		margin: 25px auto;
+	}
+	@media screen and (max-width: 600px) {
+		height: 255px;
+		border-radius: 10px;
+		margin: 15px auto;
+	}
+	&_arrow {
+		position: absolute;
+		top: 50%;
+		height: 10%;
+		cursor: pointer;
+		width: 48px;
+		height: 80px;
+		color: $color-primary;
+		transform: translateY(-50%);
+		@media screen and (max-width: 600px) {
+			width: 35px;
+			height: 50px;
+		}
+		&_right {
+			right: 35px;
+		}
+		&_left {
+			left: 35px;
+		}
+	}
+	.slideNB {
+		position: absolute;
+		bottom: 30px;
+		left: 50%;
+		color: $color-primary;
+		font-weight: 500;
+		font-size: 18px;
+	}
 }
